@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://www.antam.com/uploads/ngc_global_posts/5bb49e714654a_20181003174817-2.jpg);
+  background-size: cover;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 1px 0px #fff, 0px -1px 0px #fff, 1px 1px 2px #000;
+}
+
+
+.btn-wrapper {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 1px 0px #fff, 0px -1px 0px #fff, 1px 1px 2px #000;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  max-height: 1171px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.list-resp{
+  display: block;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.profile-wrapper {
+  max-height: 1171px;
+  height: fit-content;
+  padding-bottom: 400px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+
+.contact-wrapper {
+  max-height: 1171px;
+  height: 100%;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  
+}
+.heading {
+  text-align:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.head-profile{
+  float: left;
+}
+
+.heading h1 {
+  font-weight: normal;
+  text-align: center;
+  float: center;
+}
+
+.profile{
+  float: left;
+  width: 25%;
+  margin-top:80px;
+  padding:20px;
+}
+
+.profile-icon {
+  position: relative;
+  
+}
+
+.profile-icon img{
+  width:200px;
+  height: 300px;
+  
+}
+.profile-icon-head {
+  float:left;
+  /* height:200px; */
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  padding: 60px;
+  margin-top: 35px;
+  border: 1px solid rgb(82, 82, 82);
+  margin-right: 30px;
+}
+
+.text-contents-head {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #292929;
+  text-align:justify;
+  margin-bottom: 80px;
+}
+.text-contents {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  line-height: 20px;
+}
+
+.contact{
+  float: left;
+  width: 20%;
+  margin-top:80px;
+  padding:20px;
+}
+
+.contact img{
+  width: 75%;
+}
+
+.text-contact{
+  margin-top: 10px;
+}
+
+.footer-wrapper {
+  padding: 50px 0 75px 0;
+  background-color: #192a56;
+  color: #dcdde1;
+  text-align: center;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left img{
+  margin: auto 0;
+}
+
+.footer-right{
+  float: right;
+}
